@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ['0.0.0.0','mnfdemo.herokuapp.com','127.0.0.1','*',
    'https://mnfdemo.herokuapp.com/',
    'mnfdemo.herokuapp.com',
    'mnfdemo.herokuapp.com/',]
-DISABLE_COLLECTSTATIC=1
+
 
 # Application definition
 
