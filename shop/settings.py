@@ -26,7 +26,7 @@ SECRET_KEY = '+5(ba8of+9wv^#h$+rt0@_lm=r%wj)8#02(=(tko82b)^wyl3z'
 DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','sampledomain.com']
-
+DISABLE_COLLECTSTATIC=1
 
 # Application definition
 
