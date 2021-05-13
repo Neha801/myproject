@@ -25,7 +25,11 @@ SECRET_KEY = '+5(ba8of+9wv^#h$+rt0@_lm=r%wj)8#02(=(tko82b)^wyl3z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','sampledomain.com']
+ALLOWED_HOSTS = ['0.0.0.0','mnfdemo.herokuapp.com','127.0.0.1','*',
+   'http://mnfdemo.herokuapp.com/',
+   'https://mnfdemo.herokuapp.com/',
+   'mnfdemo.herokuapp.com',
+   'mnfdemo.herokuapp.com/',]
 DISABLE_COLLECTSTATIC=1
 
 # Application definition
@@ -123,7 +127,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'/static/')
+    os.path.join(BASE_DIR,'static')
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
