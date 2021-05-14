@@ -1,1 +1,1 @@
-web: gunicorn MNF.wsgi
+web: gunicorn shop.wsgi
