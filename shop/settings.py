@@ -25,11 +25,11 @@ SECRET_KEY = '+5(ba8of+9wv^#h$+rt0@_lm=r%wj)8#02(=(tko82b)^wyl3z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','mnfdemo.herokuapp.com','127.0.0.1','*',
-   'http://mnfdemo.herokuapp.com/',
-   'https://mnfdemo.herokuapp.com/',
-   'mnfdemo.herokuapp.com',
-   'mnfdemo.herokuapp.com/',]
+ALLOWED_HOSTS = ['0.0.0.0','shoppingwebs.herokuapp.com','127.0.0.1','*',
+   'http://shoppingwebs.herokuapp.com/',
+   'https://shoppingwebs.herokuapp.com/',
+   'shoppingwebs.herokuapp.com',
+   'shoppingwebs.herokuapp.com/',]
 
 
 # Application definition
